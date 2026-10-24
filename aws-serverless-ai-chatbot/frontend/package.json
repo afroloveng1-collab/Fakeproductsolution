@@ -1,0 +1,9 @@
+{
+  "name": "cloudassist-ai-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev": "vite --host 0.0.0.0", "build": "vite build", "preview": "vite preview"},
+  "dependencies": {"@aws-sdk/client-lex-runtime-v2": "^3.800.0", "@aws-sdk/credential-providers": "^3.800.0"},
+  "devDependencies": {"vite": "^6.3.0"}
+}
